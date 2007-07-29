@@ -10,19 +10,21 @@ installed by setup.exe.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  glib2-2.12.9-1
-  gstreamer08-0.8.12-1
-  gstreamer08-plugins-0.8.12-2
-  gstreamer08-plugins-ximage-0.8.12-2
-  kdelibs4-3.5.6-1
+  glib2-2.12.13-1
+  gstreamer010-0.10.13-1
+  gstreamer010-plugins-base-0.10.13-1
+  gstreamer010-plugins-oss
+  gstreamer010-plugins-ximage
+  kdelibs4-3.5.7-1
   libX11_6-1.1.1-1
   libcdio7-0.78.2-1
+  libdvdcss2-1.2.9-2
   libmp3lame0-3.97-1
   libogg0-1.1.2-1
   libvorbis0-1.1.1-1
   libvorbisenc2-1.1.1-1
   libxcb1-1.0-2
-  libxine1-1.1.5-1
+  libxine1-1.1.6-1
   qt3-3.3.8-1
 
 Build requirements:
@@ -31,7 +33,7 @@ Build requirements:
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.2.11-1
+  cygport-0.3.5-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
@@ -49,15 +51,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack kaffeine-0.8.4-X-src.tar.bz2
+  unpack kaffeine-0.8.5-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./kaffeine-0.8.4-X.cygport all
+  cygport ./kaffeine-0.8.5-X.cygport all
 
 This will create:
-  /usr/src/kaffeine-0.8.4-X-src.tar.bz2
-  /usr/src/kaffeine-0.8.4-X.tar.bz2
+  /usr/src/kaffeine-0.8.5-X-src.tar.bz2
+  /usr/src/kaffeine-0.8.5-X.tar.bz2
 
 -------------------------------------------
 
@@ -103,18 +105,18 @@ Files included in the binary package:
   /usr/share/apps/konqueror/servicemenus/kaffeine_play_dvd.desktop
   /usr/share/apps/konqueror/servicemenus/kaffeine_play_vcd.desktop
   /usr/share/apps/profiles/kaffeine.profile.xml
-  /usr/share/doc/Cygwin/kaffeine-0.8.4.README
-  /usr/share/doc/HTML/en/kaffeine-0.8.4-apidocs/doxygen.css
-  /usr/share/doc/HTML/en/kaffeine-0.8.4-apidocs/doxygen.png
-  /usr/share/doc/HTML/en/kaffeine-0.8.4-apidocs/favicon.ico
-  /usr/share/doc/HTML/en/kaffeine-0.8.4-apidocs/index.html
-  /usr/share/doc/HTML/en/kaffeine-0.8.4-apidocs/installdox-slow
-  /usr/share/doc/HTML/en/kaffeine-0.8.4-apidocs/kde_gear_64.png
-  /usr/share/doc/HTML/en/kaffeine-0.8.4-apidocs/subdirs
-  /usr/share/doc/HTML/en/kaffeine-0.8.4-apidocs/tab_b.gif
-  /usr/share/doc/HTML/en/kaffeine-0.8.4-apidocs/tab_l.gif
-  /usr/share/doc/HTML/en/kaffeine-0.8.4-apidocs/tab_r.gif
-  /usr/share/doc/HTML/en/kaffeine-0.8.4-apidocs/tabs.css
+  /usr/share/doc/Cygwin/kaffeine-0.8.5.README
+  /usr/share/doc/HTML/en/kaffeine-0.8.5-apidocs/doxygen.css
+  /usr/share/doc/HTML/en/kaffeine-0.8.5-apidocs/doxygen.png
+  /usr/share/doc/HTML/en/kaffeine-0.8.5-apidocs/favicon.ico
+  /usr/share/doc/HTML/en/kaffeine-0.8.5-apidocs/index.html
+  /usr/share/doc/HTML/en/kaffeine-0.8.5-apidocs/installdox-slow
+  /usr/share/doc/HTML/en/kaffeine-0.8.5-apidocs/kde_gear_64.png
+  /usr/share/doc/HTML/en/kaffeine-0.8.5-apidocs/subdirs
+  /usr/share/doc/HTML/en/kaffeine-0.8.5-apidocs/tab_b.gif
+  /usr/share/doc/HTML/en/kaffeine-0.8.5-apidocs/tab_l.gif
+  /usr/share/doc/HTML/en/kaffeine-0.8.5-apidocs/tab_r.gif
+  /usr/share/doc/HTML/en/kaffeine-0.8.5-apidocs/tabs.css
   /usr/share/doc/HTML/en/kaffeine/common
   /usr/share/doc/HTML/en/kaffeine/discwindow.png
   /usr/share/doc/HTML/en/kaffeine/dvbbroadcast.png
@@ -131,13 +133,13 @@ Files included in the binary package:
   /usr/share/doc/HTML/en/kaffeine/kaffeinepart.png
   /usr/share/doc/HTML/en/kaffeine/playlistwin.png
   /usr/share/doc/HTML/en/kaffeine/startwindow.png
-  /usr/share/doc/kaffeine-0.8.4/AUTHORS
-  /usr/share/doc/kaffeine-0.8.4/BUGS
-  /usr/share/doc/kaffeine-0.8.4/COPYING
-  /usr/share/doc/kaffeine-0.8.4/ChangeLog
-  /usr/share/doc/kaffeine-0.8.4/INSTALL
-  /usr/share/doc/kaffeine-0.8.4/README
-  /usr/share/doc/kaffeine-0.8.4/TODO
+  /usr/share/doc/kaffeine-0.8.5/AUTHORS
+  /usr/share/doc/kaffeine-0.8.5/BUGS
+  /usr/share/doc/kaffeine-0.8.5/COPYING
+  /usr/share/doc/kaffeine-0.8.5/ChangeLog
+  /usr/share/doc/kaffeine-0.8.5/INSTALL
+  /usr/share/doc/kaffeine-0.8.5/README
+  /usr/share/doc/kaffeine-0.8.5/TODO
   /usr/share/icons/hicolor/128x128/apps/kaffeine.png
   /usr/share/icons/hicolor/16x16/actions/player_mute.png
   /usr/share/icons/hicolor/16x16/actions/player_record.png
@@ -164,47 +166,47 @@ Files included in the binary package:
   /usr/share/icons/hicolor/48x48/apps/kaffeine.png
   /usr/share/icons/hicolor/48x48/mimetypes/mime_kaffeine.png
   /usr/share/icons/hicolor/64x64/apps/kaffeine.png
-  /usr/share/locale/ar/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/bg/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/bn/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/br/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/ca/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/cs/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/da/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/de/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/el/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/es/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/et/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/fi/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/fr/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/ga/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/gl/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/he/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/hu/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/it/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/ja/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/ka/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/km/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/lt/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/mk/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/nb/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/nl/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/nn/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/pa/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/pl/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/pt/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/pt_BR/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/ru/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/sk/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/sr/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/sr@Latn/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/sv/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/tr/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/uk/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/uz/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/xx/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/zh_CN/LC_MESSAGES/kaffeine-0.8.4.mo
-  /usr/share/locale/zh_TW/LC_MESSAGES/kaffeine-0.8.4.mo
+  /usr/share/locale/ar/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/bg/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/bn/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/br/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/ca/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/cs/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/da/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/de/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/el/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/es/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/et/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/fi/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/fr/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/ga/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/gl/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/he/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/hu/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/it/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/ja/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/ka/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/km/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/lt/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/mk/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/nb/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/nl/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/nn/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/pa/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/pl/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/pt/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/ru/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/sk/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/sr/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/sr@Latn/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/sv/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/tr/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/uk/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/uz/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/xx/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/kaffeine-0.8.5.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/kaffeine-0.8.5.mo
   /usr/share/mimelnk/application/x-kaffeine.desktop
   /usr/share/services/gstreamer_part.desktop
   /usr/share/services/kaffeinemp3lame.desktop
@@ -216,8 +218,11 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.8.4-1 -----
+----- version 0.8.5-1 -----
 Version bump.
+
+----- version 0.8.4-1 -----
+Version bump; GStreamer KPart now requires 0.10.
 
 ----- version 0.8.3-1 -----
 Initial release for Cygwin.

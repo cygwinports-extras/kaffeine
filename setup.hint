@@ -1,5 +1,5 @@
 category: KDE Audio Video
-requires: cygwin glib2 gstreamer010 gstreamer010-plugins-base gstreamer010-plugins-oss gstreamer010-plugins-ximage kdelibs4 libX11_6 libcdio7 libdvdcss2 libmp3lame0 libogg0 libvorbis0 libvorbisenc2 libxcb1 libxine1 qt3
+requires: cygwin glib2 gstreamer010 gstreamer010-plugins-base gstreamer010-plugins-oss gstreamer010-plugins-ximage kdelibs4 libX11_6 libcdio7 libdvdcss2 libmp3lame0 libogg0 libvorbis0 libvorbisenc2 libxcb1 libxine1 libxine1-xcb qt3
 sdesc: "KDE multimedia player"
 ldesc: "Kaffeine is a full featured multimedia player for KDE, using 
 either xine or gstreamer as a backend.

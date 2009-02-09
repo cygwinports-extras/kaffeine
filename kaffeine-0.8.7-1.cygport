@@ -3,8 +3,11 @@ inherit kde3
 DESCRIPTION="KDE Xine media player"
 HOMEPAGE="http://kaffeine.sourceforge.net/"
 SRC_URI="mirror://sourceforge/${PN}/${P}.tar.bz2"
+PATCH_URI="0.8.7-cdparanoia.patch
+           0.8.7-libdvdcss.patch
+		   0.8.7-gcc34.patch"
 
-CYGCONF_ARGS="--without-dpms --without-xinerama --without-dvb"
+CYGCONF_ARGS="--without-dpms --without-dvb"
 
 src_install() {
 	cd ${B}

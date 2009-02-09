@@ -1,0 +1,23 @@
+--- origsrc/kaffeine-0.8.7/kaffeine/src/instwizard.cpp	2007-06-03 08:55:14.000000000 -0500
++++ src/kaffeine-0.8.7/kaffeine/src/instwizard.cpp	2008-07-06 15:15:03.484375000 -0500
+@@ -118,6 +118,12 @@
+ 	//LIBDVDCSS
+ 	info << "<br><hr><b>" << "libdvdcss" << "...</b><br>";
+ 	bool dvdcss = false;
++#ifdef Q_OS_CYGWIN
++	d = QDir("/usr/bin");
++	entries = d.entryList("cygdvdcss-*.dll");
++	if (entries.count())
++		dvdcss = true;
++#else
+ 	d = QDir("/usr/lib");
+ 	entries = d.entryList("libdvdcss.so*");
+ 	if (entries.count())
+@@ -136,6 +142,7 @@
+ 				dvdcss = true;
+ 		}
+ 	}
++#endif /* ! Q_OS_CYGWIN */
+ 	if (!dvdcss)
+ 		info << "<font color=\"DarkRed\">" << i18n("libdvdcss not found. You're not able to play encrypted (most commercial) DVD's. You can get the library here (but using it may violate copyright regulations of your country!):")
+ 		<< " <a href=\"http://developers.videolan.org/libdvdcss/\">http://developers.videolan.org/libdvdcss</a>.</font>";

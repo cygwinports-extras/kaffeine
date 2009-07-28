@@ -1,8 +1,4 @@
 category: KDE Audio Video
-requires: glib2 gstreamer010 gstreamer010-plugins-base gstreamer010-plugins-oss gstreamer010-plugins-ximage kdelibs4 libcdio_cdda0 libcdio_paranoia0 libdvdcss2 libmp3lame0 libogg0 libvorbis0 libvorbisenc2 libX11_6 libxcb1 libxine1 libxine1-xcb libXtst6 qt3
+requires: libgcc1 libkdecore5 libphonon4 libQtCore4 libQtDBus4 libQtGui4 libQtXml4 libstdc++6 phonon-xine
 sdesc: "KDE multimedia player"
-ldesc: "Kaffeine is a full featured multimedia player for KDE, using 
-either xine or gstreamer as a backend.
-NOTE: To use the gstreamer backend, additional plugins may need to be 
-installed depending on the file format being played.  These will not be 
-automatically installed by setup.exe."
+ldesc: "Kaffeine is a full featured multimedia player for KDE."

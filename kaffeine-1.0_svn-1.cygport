@@ -1,9 +1,0 @@
-SVN_BRANCH="trunk/extragear/multimedia/kaffeine"
-SVN_REV=999294
-inherit kde4 svn
-
-DESCRIPTION="KDE Xine media player"
-HOMEPAGE="http://kaffeine.kde.org/"
-#SRC_URI="mirror://sourceforge/kaffeine/${P/_/-}.tar.gz"
-#SRC_DIR=${P/_/-}
-PATCH_URI="r999294-dvbmodule-linux.patch"

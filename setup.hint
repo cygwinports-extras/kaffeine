@@ -1,4 +1,4 @@
 category: KDE Audio Video
-requires: libgcc1 libkdecore5 libQtCore4 libQtDBus4 libQtGui4 libQtSql4 libQtXml4 libstdc++6 libX11_6 libxine1 libXss1 phonon-xine
+requires: libgcc1 libkdecore5 libQtCore4 libQtDBus4 libQtGui4 libQtSql4 libQtXml4 libstdc++6 libX11_6 libxine1 libXss1
 sdesc: "KDE multimedia player"
 ldesc: "Kaffeine is a full featured multimedia player for KDE."

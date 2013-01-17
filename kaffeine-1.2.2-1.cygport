@@ -1,6 +1,0 @@
-inherit kde4
-
-DESCRIPTION="KDE Xine media player"
-HOMEPAGE="http://kaffeine.kde.org/"
-SRC_URI="mirror://sourceforge/kaffeine/${P/_/-}.tar.gz"
-SRC_DIR=${P/_/-}

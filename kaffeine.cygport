@@ -1,0 +1,11 @@
+inherit kde4
+
+NAME="kaffeine"
+VERSION=1.2.2
+RELEASE=2
+CATEGORY="KDE Audio Video"
+SUMMARY="KDE multimedia player"
+DESCRIPTION="Kaffeine is a full featured Xine-based multimedia player for KDE."
+HOMEPAGE="http://kaffeine.kde.org/"
+SRC_URI="mirror://sourceforge/kaffeine/${P/_/-}.tar.gz"
+SRC_DIR=${P/_/-}
